@@ -1,0 +1,43 @@
+Tidy-Data-Assignment
+====================
+
+Assignment to Create Tidy Data Set from Samsung Galaxy
+
+This document contains the overview and instructions for constructing the tidy data set
+
+## Overview of the Data Merging, Cleaning and Aggregation  
+
+### Source Data Tables
+The program run_analysis.R assumes that the user will have a foder titled "UCI HAR Dataset"
+in their current working directory.  If that directory is not present but the zip file 
+"getdata_projectfiles_UCI HAR Dataset.zip" is in the current working directory, the program will 
+unzip this file and create the subdirectories test and train.  
+
+The data chosen for analysis comes from the following files,
+
+*From the UCI HAR folder
+features.txt  - this contains the full list of variable names in the test and train set from which the means
+will be calculated.    
+
+*From the test subdirectory
+subject_text.txt - this contains the subject IDs
+X_test.txt - this contains the full set of summarised test subject observations, assumed to be in the same order
+Y_text.txt - this contains the activity codes (1-6) for each test subject, also asumed to be in the same order
+                                                                              
+*From the train  subdirectory
+subject_text.txt - this contains the subject IDs
+X_train .txt - this contains the full set of summarised train  subject observations, assumed to be in the same order
+Y_text.txt - this contains the activity codes (1-6) for each train  subject, also asumed to be in the same.
+
+Because the more detailed information in the inertial signals folder is summarised in the test and train files, 
+this data is not incorporated into the construction of the tidy data set.
+
+### Renaming of Variables
+
+
+
+
+
+
+
+
