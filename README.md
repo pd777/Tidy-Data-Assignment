@@ -37,8 +37,7 @@ The very lengthy variable names have been shortened based on the following princ
 * Removal of brackets (), - from names
 * conversion of variable names from upper to lower case
 * removal of inconsistencies in naming conventions - "bodybody" replaced with "body"
-* removal of unnecessary use of "body" term in variable - these can all assumed to be body
-* measures unless explicitly referencing gravity measure.
+* removal of unnecessary use of "body" term in variable - these can all assumed to be body measures unless explicitly referencing gravity measure.
 
 The overall convention of the naming then covers the following
 * first character f-fourier or t-time based measure or a-angle
